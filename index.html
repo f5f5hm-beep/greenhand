@@ -2,8 +2,8 @@
 <html lang="ar">
 <head>
 <meta charset="UTF-8">
-<title>أزياء الكف الأخضر | Greenhand</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>أزياء الكف الأخضر | Greenhandfs</title>
 
 <!-- Font Awesome للأيقونات -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -14,19 +14,23 @@ body{
     font-family: Arial, sans-serif;
     background:#000;
     color:#fff;
-    text-align:center;
+    display:flex;
+    justify-content:center;
 }
 .container{
+    width:100%;
     max-width:420px;
-    margin:auto;
-    padding:40px 20px;
-}
-.logo{
-    width:180px;
-    margin-bottom:20px;
+    padding:30px 15px;
+    text-align:center;
 }
 h1{
-    margin:10px 0;
+    font-size:22px;
+    margin-bottom:10px;
+}
+p{
+    font-size:14px;
+    color:#ccc;
+    margin-bottom:25px;
 }
 .btn{
     display:flex;
@@ -37,23 +41,37 @@ h1{
     color:#000;
     text-decoration:none;
     padding:14px;
-    margin:10px 0;
-    border-radius:10px;
+    border-radius:12px;
+    margin-bottom:12px;
+    font-size:15px;
     font-weight:bold;
     transition:0.3s;
 }
 .btn:hover{
-    opacity:0.85;
+    background:#b6e85a;
 }
-.section{
-    margin-top:35px;
+.btn i{
+    font-size:18px;
+}
+
+/* الفروع */
+.branches{
+    margin-top:25px;
+    text-align:right;
+    background:#111;
+    padding:15px;
+    border-radius:12px;
+}
+.branches h2{
+    color:#9aca3c;
+    font-size:18px;
+    text-align:center;
+    margin-bottom:10px;
 }
 .branch{
-    border:1px solid #9aca3c;
-    border-radius:10px;
-    padding:12px;
-    margin:10px 0;
     font-size:14px;
+    margin-bottom:8px;
+    line-height:1.6;
 }
 </style>
 </head>
@@ -61,11 +79,8 @@ h1{
 <body>
 <div class="container">
 
-<!-- الشعار -->
-<img src="logo.png" class="logo" alt="Greenhand Fashion">
-
-<h1>أزياء الكف الأخضر</h1>
-<p>Greenhand Fashion</p>
+<h1>أزياء الكف الأخضر<br>Greenhandfs</h1>
+<p>ماركة محلية تهتم بتصميم وتصنيع وبيع ملابس النساء والأطفال</p>
 
 <!-- روابط التواصل -->
 <a class="btn" href="https://www.facebook.com/greenhandfS" target="_blank">
@@ -93,7 +108,7 @@ h1{
 </a>
 
 <a class="btn" href="https://x.com/greenhandfs" target="_blank">
-<i class="fab fa-x-twitter"></i> X
+<i class="fab fa-x-twitter"></i> X (تويتر)
 </a>
 
 <a class="btn" href="https://www.youtube.com/@greenhandfs" target="_blank">
@@ -101,21 +116,21 @@ h1{
 </a>
 
 <a class="btn" href="https://gh-nice.com/" target="_blank">
-<i class="fas fa-globe"></i> الموقع الرسمي
+<i class="fas fa-store"></i> الموقع الإلكتروني
 </a>
 
 <!-- الفروع -->
-<div class="section">
+<div class="branches">
 <h2>فروعنا</h2>
 
-<div class="branch">صنعاء – شارع حدة أمام مركز الكميم<br>📞 779697903</div>
-<div class="branch">صنعاء – الأصبحي شارع الحربي<br>📞 779697904</div>
-<div class="branch">صنعاء – شارع جمال<br>📞 779697902</div>
-<div class="branch">صنعاء – يمن مول<br>📞 779697906</div>
-<div class="branch">صنعاء – سام مول<br>📞 779697905</div>
-<div class="branch">عدن – كريتر سوق البز (الدرج)<br>📞 779697912</div>
-<div class="branch">تعز – عقبة شارع جمال<br>📞 779697914</div>
-<div class="branch">سيئون – شارع الجزائر ماس مول الدور الثالث<br>📞 779697908</div>
+<div class="branch">📍 صنعاء – شارع حدة أمام مركز الكميم<br>📞 779697903</div>
+<div class="branch">📍 صنعاء – الأصبحي شارع الحربي<br>📞 779697904</div>
+<div class="branch">📍 صنعاء – شارع جمال<br>📞 779697902</div>
+<div class="branch">📍 صنعاء – يمن مول<br>📞 779697906</div>
+<div class="branch">📍 صنعاء – سام مول<br>📞 779697905</div>
+<div class="branch">📍 عدن – كريتر سوق البز (الدرج)<br>📞 779697912</div>
+<div class="branch">📍 تعز – عقبة شارع جمال<br>📞 779697914</div>
+<div class="branch">📍 سيئون – شارع الجزائر، ماس مول – الدور الثالث<br>📞 779697908</div>
 
 </div>
 
